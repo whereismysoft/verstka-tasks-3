@@ -1,8 +1,26 @@
 .aviamudaki
 {
- text-align: left-side;   
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 body
 {
-background-image:("http://bgfons.com/upload/brick_texture3367.jpg");
+background-image:url("http://www.fonstola.ru/pic/201111/1600x900/fonstola.ru-55699.jpg");
+background-size: 110%;
+background-repeat: no-repeat;
 }
+tr th
+{
+	font: bold 15px Arial;
+	border-bottom: 5px double white;
+}
+tr td 
+{
+ font: italic 12px sans-serif; 
+ }
+tr td:hover
+{
+	background-color:red;
+	}
+	.bezgranitsy
