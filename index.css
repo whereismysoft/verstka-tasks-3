@@ -11,6 +11,9 @@ background-image:url("http://www.fonstola.ru/pic/201111/1600x900/fonstola.ru-556
 background-size: 110%;
 background-repeat: no-repeat;
 }
+{
+	background-color:rgba(255,165,0,0.4) 
+}
 tr th
 {
 	padding: 12px;
@@ -21,7 +24,11 @@ tr td
 {
  font: italic 14px sans-serif; 
 }
+tbody tr:nth-child(odd)
+{
+	background-color:rgba(255,165,0,0.2);
+}
 tbody tr:hover
 {
-	background-color:red;
+	background-color:rgba(255,0,255,0.2);
 }
