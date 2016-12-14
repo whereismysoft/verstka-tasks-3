@@ -32,9 +32,9 @@ tbody tr:hover
 {
 	background-color:rgba(255,0,255,0.2);
 }
-.vklvykl
+select
 {
-	text-align: leftside;
-	margin-left: 30 px;
+	left: 30 px;
 	margin-top: 20px;
 }
+	.vklvykl
