@@ -37,6 +37,10 @@ select
 	left: 30 px;
 	margin-top: 20px;
 }
+option:not([id=arrive])
+{
+    display: none:
+}
 .selector {
     display: none; /* Элемент (например, строка таблицы) не будет отображаться */
     display: table-row; /* Обратно отобразить строку таблицы */
