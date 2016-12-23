@@ -32,15 +32,12 @@ tbody tr:hover
 {
 	background-color:rgba(255,0,255,0.2);
 }
-select
+input[type=checkbox]:checked ~ .arrive
 {
-	left: 30 px;
-	margin-top: 20px;
+    display:none;
 }
-option:not([id=arrive])
+
+input[type=checkbox]:checked ~ .departure
 {
-    display: none:
+    display:none;
 }
-.selector {
-    display: none; /* Элемент (например, строка таблицы) не будет отображаться */
-    display: table-row; /* Обратно отобразить строку таблицы */
